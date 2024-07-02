@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+}
+
+.header{
+    height: 82px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+
+}
+.menu{
+    height: 24px;
+    width: 65.63px;
+    padding: 28px;
+    margin-left: 40px;
+
+    
+  }
+.icon{
+    height: 23px;
+    width: 20px;
+    background-size: cover;
+    display: flex;
+}
+.menu-text{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.main-logo img{
+    width: 240px;
+    margin-top: -18px;
+    margin-left: 470px;
+}
+.main-page{
+    background-image: url(home-page.jpeg);
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+
+}
+.title-main{
+    color: white;
+    font-size: 50px;
+    padding-left: 150px;
+    padding-top: 440px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.title-sub{
+    color: white;
+    font-size: 28px;
+    padding-left: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+
+}
+.model-text{
+    background-color: rgb(255, 255, 255);
+    height: 72px;
+    width: 1200px;
+}
+.model-text{
+    color: black;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+    padding-top: 33px;
+    
+}
+
+.models{
+    display: flex;
+    flex-wrap: wrap;
+}
+.car1{
+    height: 400px;
+    width: 33.33%;
+    background-image: url(718.jpeg);
+    background-size:cover;
+    background-position-y: -80px;
+
+}
+.car2{
+    height: 400px;
+    width: 33.33%;
+    background-image: url(911.jpeg);
+    background-size:cover;
+    background-position-y: -80px;
+}
+.car3{
+    height: 400px;
+    width: 33.33%;
+    background-image: url(taycan.jpeg);
+    background-size:cover;
+    background-position-y: -80px;
+}
+.car4{
+    height: 400px;
+    width: 33.33%;
+    background-image: url(panemera.jpeg);
+    background-size:cover;
+    background-position-y: -80px;
+}
+.car5{
+    height: 400px;
+    width: 33.33%;
+    background-image: url(macan.jpeg);
+    background-size:cover;
+    background-position-y: -80px;
+}
+.car6{
+    height: 400px;
+    width: 33.33%;
+    background-image: url(cayenne.jpeg);
+    background-size: cover;
+    background-position-y: -80px;
+}
+.model-name h1{
+    font-size: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.model-price p{
+    font-size: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    padding-left: 20px;
+    padding-top: 3px;
+    font-weight: bold;
+    color: white;
+}
+.build{
+     height: 49px;
+     width: 161px;
+     background-color: #ffffff;
+     display: flex;
+     margin-left: 40px;
+     margin-top: 240px;
+
+}
+.build img{
+    height: 12px;
+    margin-left: 19px;
+    margin-top: 17px;
+}
+.bottom-text{
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:normal;
+    margin-top: 14px;
+    margin-left: 7px;
+    
+}
+.allmodels {
+    height: 49px;
+    width: 120px;
+    background-color:transparent;
+    border: 1px solid white;
+    margin-left: 210px;
+    margin-top: -50px;
+    display: flex;
+}
+.allmodels img{
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.bottom-text2{
+    color: #ffffff;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:normal;
+    margin-top: 14px;
+    margin-left: 3px;
+}
+.euro{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+}
+.european{
+    margin-left:160px ;
+    margin-top: 10px;
+    font-size: small;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+}
+.find-near{
+    height: 40px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 160px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.car-details{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+}
+.car-pic1{
+    height: 200px;
+    width: 400px;
+    background-image: url(p718.jpeg);
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.car-pic2{
+    height: 200px;
+    width: 400px;
+    background-image: url(p911.jpeg);
+    background-size: cover;
+    margin-top: 30px;
+}
+.car-pic3{
+    height: 200px;
+    width: 400px;
+    background-image: url(ptaycan.jpeg);
+    background-size: cover;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.car-details2{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    display: flex;
+    margin-left: 260px;
+}
+.car-name-details1{
+    height: 45px;
+    width: 160px;
+    background-color:#313639;
+    display: flex;
+    margin-top: -140px;
+}
+.car-name-details2{
+    height: 45px;
+    width: 160px;
+    background-color:#313639;
+    display: flex;
+    margin-top: -140px;
+    margin-left: 250px;
+}
+.car-name-details3{
+    height: 45px;
+    width: 190px;
+    background-color:#313639;
+    display: flex;
+    margin-top: -140px;
+    margin-left: 240px;
+}
+.car-details2 img{
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.shopping-tools{
+    height: 40px;
+    width: 100%;
+    padding-left: 160px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: -400px;
+}
+.shopping-tools-pic{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 1520px;
+    display: flex;
+}
+.shopping-tools-pic1{
+    height: 250px;
+    width: 500px;
+    background-image: url(shopping1.jpeg);
+    background-size: cover;
+    margin-left: 160px;
+    margin-top: 30px;
+    background-position-y: -150px;
+}
+.shopping-tools-pic2{
+    height: 250px;
+    width: 250px;
+    background-image: url(shopping2.jpeg);
+    background-size: cover;
+    margin-top: 30px;
+    background-position-y: -15px;
+}
+.shopping-tools-pic3{
+    height: 250px;
+    width: 250px;
+    background-image: url(shopping3.jpeg);
+    background-size: cover;
+    margin-top: 30px;
+    background-position-y: -15px;
+}
+.shopping-tools-pic4{
+    height: 250px;
+    width: 250px;
+    background-image: url(shopping4.jpeg);
+    background-size: cover;
+    margin-top: 30px;
+    background-position-y: -15px;
+    margin-right: 160px;
+}
+.shopping-text{
+    margin-left: 17px;
+    margin-top: 215px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.social{
+    height: 60px;
+    width: 100%;
+    padding-left: 160px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin-top: -75px;
+}
+.social-main{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display:flex ;
+    justify-content: space-evenly;
+
+}
+.social-left{
+    margin-left: 155px;
+    margin-right: 5px;
+}
+.social-mid{
+
+    margin-right: -30px;
+}
+.social-right{
+    margin-right: 155px;
+    margin-left: 35px;
+}
+.social-left-top{
+    height: 395px;
+    width: 395px;
+    background-image: url(socailM3.webp); 
+    background-size: cover;
+    background-position-y:-40px;  
+}
+.social-mid-top{
+    height: 395px;
+    width: 395px;
+    background-image:url(soicailL1.webp);
+    background-size: cover;
+    background-position-y:-40px; 
+}
+.social-right-top{
+    height: 395px;
+    width: 395px;
+    background-image: url(socialR1.webp);
+    background-size: cover;
+}
+
+.social-left-bot{
+    display: flex;
+}
+.social-left-botleft{
+    height: 192.5px;
+    width: 192.5px;
+    background-image: url(socialL2.webp);
+    margin-top: 10px;
+    background-size: cover;
+    background-position-x:-60px;
+
+}
+.social-mid-botleft{
+    height: 192.5px;
+    width: 192.5px;
+    background-image: url(socailM2.webp);
+    margin-top: 10px;
+    background-size: cover;
+    background-position-x:-60px;
+}
+.social-right-botleft{
+    height: 192.5px;
+    width: 192.5px;
+    background-image: url(socialR2.webp);
+    margin-top: 10px;
+    background-size: cover;
+    background-position-y:-10px;
+}
+.social-left-botright{
+    height: 192.5px;
+    width: 192.5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(socailL3.webp);
+    background-size: cover;
+    background-position-y:-10px;
+}
+.social-mid-botright{
+    height: 192.5px;
+    width: 192.5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(socailM1.webp);
+    background-size: cover;
+}
+.social-right-botright{
+    height: 192.5px;
+    width: 192.5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(socialR3.webp);
+    background-size: cover;
+    background-position-y:-10px;
+
+}
+.social-mid-bot{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+}
+.discover{
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 24px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 155px;
+}
+.discover-pic{
+
+    display: flex;
+    margin-left: 155px;
+    height: 350px;
+    border-bottom: 1px solid black;
+    width: 1200px;
+}
+.dicover-pic1{
+    height: 225px;
+    width: 303px;
+    background-image:url(discover1.webp);
+    background-size: cover;
+    margin-top: 30px;
+}
+.dicover-pic2{
+    height: 225px;
+    width: 303px;
+    background-image: url(discover2.webp);
+    background-size: cover;
+    margin-top: 30px;
+}
+.dicover-pic3{
+    height: 225px;
+    width: 303px;
+    background-image: url(discover3.webp);
+    background-size: cover;
+    margin-top: 30px;
+}
+.dicover-pic4{
+    height: 225px;
+    width: 300px;width: 303px;
+    background-image: url(discover4.webp);
+    background-size: cover;
+    margin-top: 30px;
+}
+.discover-pic-text{
+    margin-left: 10px;
+    color: #2b1e1e;
+    margin-top: 230px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+.footer-1{
+   height: 150px;
+   width: 1300px;
+   justify-content: space-evenly;
+   display: flex;
+   padding-left: 120px;
+   padding-top: 20px;
+}
+.footer-1 p{
+    font-size: 22px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.footer-1 a{
+    font-size: 16px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.footer2{
+    background-color: #191F22;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+}
+.footer-text {
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+.select-region i{
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+.select-region {
+    height: 49px;
+    width: 220px;
+    background-color:#313639;
+    color: #FFFFFF;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 150px;
+    padding-left: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.select-region p{
+    padding-top: 12px;
+}
+.select-country i{
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+.select-country p{
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+.select-country{
+    height: 49px;
+    width: 220px;
+    background-color:#313639;
+    color: #FFFFFF;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 400px;
+    margin-top: -50px;
+    display: flex;
+    
+}
+.final-footer{
+    background-color: #191F22;
+    width: 100%;
+    height: 80px;
+}
+.final{
+    height: 80px;
+    width:1220px;
+    margin-left: 150px;
+    border-top: 1px solid rgb(218, 172, 172);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.final p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: small;  
+}
+.final a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: small;  
+}
